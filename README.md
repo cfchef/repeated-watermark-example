@@ -2,7 +2,7 @@
 
 Here's an example...
 
-```
+```coldfusion
 <cfscript>
 	
 x = createObject("component", "Watermark").init();
