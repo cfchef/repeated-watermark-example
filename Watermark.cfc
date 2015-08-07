@@ -41,8 +41,9 @@ component name="Watermark"
 
 			// Crunch through positions to place our watermark text
 			for (var x = 0; x < srcImg.getWidth(); x += rect.getWidth() * xFactor + rect.getHeight() * yFactor) {
-				for (var y = -60 * yFactor; y < srcImg.getHeight(); y += rect.getWidth() * yFactor + rect.getHeight() * xFactor) {
-				g2d.drawString(arguments.text, x, y);
+					for (var y = -60 * yFactor; y < srcImg.getHeight(); y += rect.getWidth() * yFactor + rect.getHeight() * xFactor) {
+						g2d.drawString(arguments.text, x, y);
+					}
 		        }
 		    }
 
